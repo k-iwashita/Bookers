@@ -1,0 +1,2 @@
+$('.detail__table').html("<%= j(render partial: 'books/detail', locals: { book: @comment.book }) %>");
+$(".comment--<%= @comment.id.to_s %>").remove();
