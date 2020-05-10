@@ -66,7 +66,9 @@ gem 'devise'
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 gem 'bootstrap-sass'
+# gem 'jquery.jpostal.js'
+gem 'jp_prefecture'
 gem 'jquery-rails'
-
-
+gem 'simple_form'
 gem "dotenv-rails"
+gem 'coffee-rails'

@@ -18,6 +18,17 @@
     <%= f.text_area :introduction, class: "introduction" %>
   </div>
 
+  <p>zip code</p>
+  <%= f.text_field :postal_code %>
+  <p>prefecture</p>
+  <%= f.text_field :prefecture_code, collection: JpPrefecture::Prefecture.all, :value_method => :name, include_blank: '都道府県' %><br>
+  <p>city</p>
+  <%= f.text_field :address_city %>
+  <p>street</p>
+  <%= f.text_field :address_street %>
+  <p>builbding name</p>
+  <%= f.text_field :address_building %>
+
   <div class="actions">
     <%= f.submit %>
   </div>

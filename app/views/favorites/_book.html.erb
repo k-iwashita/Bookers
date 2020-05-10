@@ -1,4 +1,4 @@
-<% if book.favorited_by?(user) %>
+<% if book.favorited_by?(user, book) %>
   <%= link_to book_favorites_path(book.id), method: :delete, remote: true do %>
     <span class="glyphicon glyphicon-heart"><%= book.favorites.count %></span>
   <% end %>
