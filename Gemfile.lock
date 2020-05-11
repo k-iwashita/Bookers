@@ -104,8 +104,10 @@ GEM
     erubi (1.9.0)
     execjs (2.7.0)
     ffi (1.12.2)
+    geocoder (1.6.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
+    gmaps4rails (2.1.2)
     http-accept (1.7.0)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
@@ -273,6 +275,8 @@ DEPENDENCIES
   coffee-rails
   devise
   dotenv-rails
+  geocoder
+  gmaps4rails
   jbuilder (~> 2.5)
   jp_prefecture
   jquery-rails

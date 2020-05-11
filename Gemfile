@@ -72,3 +72,5 @@ gem 'jquery-rails'
 gem 'simple_form'
 gem "dotenv-rails"
 gem 'coffee-rails'
+gem "gmaps4rails"
+gem "geocoder"
