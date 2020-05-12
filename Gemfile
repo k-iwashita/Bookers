@@ -74,3 +74,5 @@ gem "dotenv-rails"
 gem 'coffee-rails'
 gem "gmaps4rails"
 gem "geocoder"
+gem "mailcatcher"
+gem "letter_opener"
